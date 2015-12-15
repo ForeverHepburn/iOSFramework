@@ -11,12 +11,14 @@
 		E62726E21C1E82A200EA2D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E62726E11C1E82A200EA2D64 /* main.m */; };
 		E62726E51C1E82A200EA2D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E62726E41C1E82A200EA2D64 /* AppDelegate.m */; };
 		E62726E81C1E82A200EA2D64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62726E71C1E82A200EA2D64 /* ViewController.m */; };
-		E62726EB1C1E82A200EA2D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62726E91C1E82A200EA2D64 /* Main.storyboard */; };
 		E62726EE1C1E82A200EA2D64 /* iosFramework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E62726EC1C1E82A200EA2D64 /* iosFramework.xcdatamodeld */; };
 		E62726F01C1E82A200EA2D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62726EF1C1E82A200EA2D64 /* Assets.xcassets */; };
 		E62726F31C1E82A200EA2D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62726F11C1E82A200EA2D64 /* LaunchScreen.storyboard */; };
 		E62726FE1C1E82A200EA2D64 /* iosFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E62726FD1C1E82A200EA2D64 /* iosFrameworkTests.m */; };
 		E62727091C1E82A200EA2D64 /* iosFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E62727081C1E82A200EA2D64 /* iosFrameworkUITests.m */; };
+		E69A63331C1EB4EF000C6847 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69A63311C1EB4EF000C6847 /* SecondViewController.m */; };
+		E69A63341C1EB4EF000C6847 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E69A63321C1EB4EF000C6847 /* SecondViewController.xib */; };
+		E69A63371C1EB9CA000C6847 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69A63361C1EB9CA000C6847 /* BaseNavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,6 @@
 		E62726E41C1E82A200EA2D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E62726E61C1E82A200EA2D64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E62726E71C1E82A200EA2D64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E62726EA1C1E82A200EA2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E62726ED1C1E82A200EA2D64 /* iosFramework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iosFramework.xcdatamodel; sourceTree = "<group>"; };
 		E62726EF1C1E82A200EA2D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62726F21C1E82A200EA2D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +58,11 @@
 		E62727041C1E82A200EA2D64 /* iosFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E62727081C1E82A200EA2D64 /* iosFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosFrameworkUITests.m; sourceTree = "<group>"; };
 		E627270A1C1E82A200EA2D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69A63301C1EB4EF000C6847 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E69A63311C1EB4EF000C6847 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E69A63321C1EB4EF000C6847 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		E69A63351C1EB9CA000C6847 /* BaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		E69A63361C1EB9CA000C6847 /* BaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +137,11 @@
 				E62726E41C1E82A200EA2D64 /* AppDelegate.m */,
 				E62726E61C1E82A200EA2D64 /* ViewController.h */,
 				E62726E71C1E82A200EA2D64 /* ViewController.m */,
-				E62726E91C1E82A200EA2D64 /* Main.storyboard */,
+				E69A63351C1EB9CA000C6847 /* BaseNavViewController.h */,
+				E69A63361C1EB9CA000C6847 /* BaseNavViewController.m */,
+				E69A63301C1EB4EF000C6847 /* SecondViewController.h */,
+				E69A63311C1EB4EF000C6847 /* SecondViewController.m */,
+				E69A63321C1EB4EF000C6847 /* SecondViewController.xib */,
 				E62726EF1C1E82A200EA2D64 /* Assets.xcassets */,
 				E62726F11C1E82A200EA2D64 /* LaunchScreen.storyboard */,
 				E62726F41C1E82A200EA2D64 /* Info.plist */,
@@ -275,7 +285,7 @@
 			files = (
 				E62726F31C1E82A200EA2D64 /* LaunchScreen.storyboard in Resources */,
 				E62726F01C1E82A200EA2D64 /* Assets.xcassets in Resources */,
-				E62726EB1C1E82A200EA2D64 /* Main.storyboard in Resources */,
+				E69A63341C1EB4EF000C6847 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,10 +358,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69A63331C1EB4EF000C6847 /* SecondViewController.m in Sources */,
 				E62726E81C1E82A200EA2D64 /* ViewController.m in Sources */,
 				E62726E51C1E82A200EA2D64 /* AppDelegate.m in Sources */,
 				E62726EE1C1E82A200EA2D64 /* iosFramework.xcdatamodeld in Sources */,
 				E62726E21C1E82A200EA2D64 /* main.m in Sources */,
+				E69A63371C1EB9CA000C6847 /* BaseNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,14 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E62726E91C1E82A200EA2D64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E62726EA1C1E82A200EA2D64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E62726F11C1E82A200EA2D64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
